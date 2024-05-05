@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Reaper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/hok1lhu.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body>
+    <h1>Sarah Hickman</h1>
+    <div class="hamburger-menu">
+      <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">COMICS</a></li>
+          <li><a href="newsletter.html">NEWSLETTER</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="rpage">
+      <!--<img
+        src="images/Reaper-cover2.jpg"
+        alt="A Haunting in Carolina cover"
+        class="r-cover"
+      />-->
+      <div class="rcoverpic"></div>
+      <div class="rtitle">
+        <h2>Being different isn't easy</h2>
+      </div>
+      <div class="rp">
+        <p>
+          Rebecca is an inquisitive sixth-grader who has just moved to a new
+          town with her family. Though anxious, she is ready for a fresh start.
+          Rebecca has a secret: she can see ghosts, and everyone at her old
+          school thought she was out of her mind. She hopes to forget the past
+          and make new friends who think she is completely normal.
+        </p>
+        <br />
+        <p>
+          Things don’t get off to a great start; on her first day of school she
+          not only discovers the ghost of a boy haunting her backyard, but a
+          group of bullies force her into helping them torment the only girl in
+          class who was nice to her. As if that weren’t enough, she discovers
+          that the ghost boy’s murderer (known as The Twilight Reaper in life)
+          is still around, and looking for another victim.
+        </p>
+        <br />
+        <br />
+        <br />
+        <p>
+          This short preview introduces us to Rebecca and her abilities. The
+          full graphic novel is available for pre-order below, and will be on
+          shelves in 2025.
+        </p>
+        <br />
+      </div>
+      <div class="rbutton">
+        <button><a href="#">Pre-order</a></button>
+      </div>
+      <!--<div class="rgallery">
+        <img src="Images/tr1w.jpg" />
+        <img src="Images/tr2w.jpg" />
+        <img src="Images/tr3w.jpg" />
+        <img src="Images/tr4w.jpg" />
+        <img src="Images/tr5w.jpg" />
+      </div>
+    </div>-->
+    <div id="main" class="rmainfull rmainm">
+      <div id="wrapper" class="rwrapperfull rwrapperm">
+        <div>
+          <button class="active" id="prev" onclick="prev()">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+        <div id="image-container" class="rimage-containerfull rimage-containerm">
+          <div id="image-carousel" class="rimage-carouselfull rimage-carouselm">
+            <img src="images/tr1w.jpg"" alt="" /> <img src="images/tr2w.jpg""
+            alt="" /> <img src="images/tr3w.jpg"" alt="" />
+            <img src="images/tr4w.jpg" alt="" />
+            <img src="images/tr5w.jpg" alt="" />
+          </div>
+        </div>
+        <div>
+          <button class="active" id="next" onclick="next()">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
